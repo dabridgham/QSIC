@@ -5,8 +5,10 @@ controllers and drives.
 
 This repository is the KiCad project for the hardware, the QSIC board
 itself.  In addition there are separate projects for a Unibus version
-of the board, the USIC, the Verilog code that runs on the FPGAs, and
-the code that runs on the embedded soft processor (not yet started).
+of the board, the http://github.com/dabridgham/[USIC], the
+http://github.com/dabridgham/QSIC-Verilog[Verilog code] that runs on
+the FPGAs, and the code that runs on the embedded soft processor (not
+yet started).
 
 A companion http://github.com/dabridgham/Indicator-Panel[indicator
 panel] is also available for those who want the blinkenlights.
