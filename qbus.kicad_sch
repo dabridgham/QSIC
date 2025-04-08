@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "QSIC - QBUS Storage & I/O Card")
-		(date "2022-10-27")
+		(date "2025-03-28")
 		(rev "0.4")
 		(company "Vintage Computer Engineering")
 	)
@@ -2459,6 +2459,170 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small_US"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_US_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.762)
+					(mid 0 -0.3734)
+					(end 1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_US_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
 					(name "~"
 						(effects
 							(font
@@ -5389,18 +5553,6 @@
 		(uuid "5552a350-225a-4c3c-8643-df2be6c7b9a2")
 	)
 	(junction
-		(at 170.18 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "570b0686-0fc3-46c1-be51-39569bba54ce")
-	)
-	(junction
-		(at 327.66 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57121f1d-c971-4830-b974-00f7d706f0c9")
-	)
-	(junction
 		(at 242.57 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5417,12 +5569,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "619e5559-5c6e-40cc-87da-be0d8df0f585")
-	)
-	(junction
-		(at 407.67 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61eb7a4f-888e-4082-9c74-1d94f58e7c05")
 	)
 	(junction
 		(at 233.68 158.75)
@@ -5467,12 +5613,6 @@
 		(uuid "7308e13a-4809-4e8e-af65-9905819aa376")
 	)
 	(junction
-		(at 161.29 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73b08644-febb-4c1e-9b8f-826cf4cd7348")
-	)
-	(junction
 		(at 242.57 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5483,12 +5623,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7badec54-dd0c-405a-acf1-25eff9460213")
-	)
-	(junction
-		(at 158.75 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bd09790-9a37-4331-94a2-940c4fb9585b")
 	)
 	(junction
 		(at 226.06 158.75)
@@ -5545,12 +5679,6 @@
 		(uuid "a12c94a5-1fd0-4cb6-9bfe-f7529f451405")
 	)
 	(junction
-		(at 406.4 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2a4b1ad-c51a-492d-9e99-410eec4f55a3")
-	)
-	(junction
 		(at 226.06 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5573,18 +5701,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aeae1c08-0511-41ff-896d-95b95a86eb35")
-	)
-	(junction
-		(at 327.66 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6f041a4-3ea0-418b-94a2-50c938beafa2")
-	)
-	(junction
-		(at 327.66 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbb99edd-f016-43ea-b1c7-0bcdd1915ee8")
 	)
 	(junction
 		(at 250.19 190.5)
@@ -5623,12 +5739,6 @@
 		(uuid "ce3f834f-337d-4957-8d02-e900d7024614")
 	)
 	(junction
-		(at 327.66 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfcae4a3-5d05-48fe-9a5f-9dcd4da4bd65")
-	)
-	(junction
 		(at 138.43 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5651,12 +5761,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d35d7027-ac1b-44b2-9664-3d8a37ee0f4e")
-	)
-	(junction
-		(at 327.66 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5b0938b-9efb-4b58-8ac4-d92da9ed2e30")
 	)
 	(junction
 		(at 184.15 170.18)
@@ -5695,16 +5799,16 @@
 		(uuid "e73ef891-c9f9-42ab-894b-b2580ee0b0a1")
 	)
 	(junction
+		(at 254 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9985dd8-260d-4a5a-8e53-737dfbe5a86e")
+	)
+	(junction
 		(at 217.17 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec1ade12-3e4c-4517-be56-01c5cfbeed11")
-	)
-	(junction
-		(at 407.67 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed9596e5-f4f2-4fc2-bb34-16ad21b3b120")
 	)
 	(junction
 		(at 46.99 163.83)
@@ -5823,12 +5927,20 @@
 		(uuid "92563de1-61c4-4e3f-8603-96474790934f")
 	)
 	(no_connect
+		(at 312.42 143.51)
+		(uuid "928473b9-5559-4a1b-889c-529669e1ea9d")
+	)
+	(no_connect
 		(at 208.28 62.23)
 		(uuid "971c1271-0f6f-46b9-8494-7107930ab4af")
 	)
 	(no_connect
 		(at 208.28 74.93)
 		(uuid "9c8b409b-0d1b-49e5-8fed-acd83e0e8b3e")
+	)
+	(no_connect
+		(at 281.94 143.51)
+		(uuid "aa9e5ae3-ee7c-4c3d-a582-816b59efd382")
 	)
 	(no_connect
 		(at 238.76 106.68)
@@ -6300,16 +6412,6 @@
 		)
 		(uuid "023f3048-77a6-4e0a-8e8e-656da0abcebc")
 	)
-	(wire
-		(pts
-			(xy 327.66 193.04) (xy 327.66 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02491520-945f-40c4-9160-4e5db9ac115d")
-	)
 	(bus
 		(pts
 			(xy 170.18 132.08) (xy 170.18 134.62)
@@ -6329,16 +6431,6 @@
 			(type default)
 		)
 		(uuid "03a79994-33b9-4df6-bdb0-d3807834d731")
-	)
-	(wire
-		(pts
-			(xy 271.78 97.79) (xy 275.59 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03ae5596-bc68-4919-b712-a127d93338cc")
 	)
 	(wire
 		(pts
@@ -6399,16 +6491,6 @@
 			(type default)
 		)
 		(uuid "09321bf4-1ea1-49b5-b1f9-ac29d6606a74")
-	)
-	(wire
-		(pts
-			(xy 21.59 24.13) (xy 158.75 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09684b6c-5d15-4020-b96b-0b388e8ee3ea")
 	)
 	(wire
 		(pts
@@ -6580,16 +6662,6 @@
 		)
 		(uuid "1509b6e6-a266-4bd3-bef6-1700f12ad930")
 	)
-	(bus
-		(pts
-			(xy 15.24 19.05) (xy 170.18 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "168a0226-3f44-46ec-a72a-15290137bd66")
-	)
 	(wire
 		(pts
 			(xy 63.5 71.12) (xy 63.5 81.28)
@@ -6599,16 +6671,6 @@
 			(type default)
 		)
 		(uuid "17c7b03d-e4b9-4587-b2ce-0ee7a9d30575")
-	)
-	(wire
-		(pts
-			(xy 407.67 156.21) (xy 407.67 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18208121-3872-4be3-a687-40854be3e1c8")
 	)
 	(wire
 		(pts
@@ -6669,6 +6731,16 @@
 			(type default)
 		)
 		(uuid "1ba3e338-9465-4844-8361-6715d7885c15")
+	)
+	(wire
+		(pts
+			(xy 250.19 104.14) (xy 238.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1baf7ccd-8db6-41f7-ac59-b34e6be39dd2")
 	)
 	(wire
 		(pts
@@ -6762,17 +6834,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 156.21) (xy 407.67 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20e1c48c-ae14-4a88-835e-87633cbb6a1c")
-	)
-	(wire
-		(pts
-			(xy 247.65 52.07) (xy 250.19 52.07)
+			(xy 247.65 52.07) (xy 254 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6842,6 +6904,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 52.07) (xy 254 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24077d46-ee1e-41b4-931e-5e2e75e44406")
+	)
+	(wire
+		(pts
 			(xy 123.19 124.46) (xy 123.19 139.7)
 		)
 		(stroke
@@ -6899,6 +6971,16 @@
 			(type default)
 		)
 		(uuid "27c35e8b-315a-496f-813b-9dd8fc243144")
+	)
+	(wire
+		(pts
+			(xy 250.19 59.69) (xy 238.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2873900a-0dd2-46dd-a40e-84f6d09437a3")
 	)
 	(bus
 		(pts
@@ -6972,6 +7054,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 58.42) (xy 29.21 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a0c7e31-2221-46a0-a1cb-021fc7047ba4")
+	)
+	(wire
+		(pts
 			(xy 322.58 82.55) (xy 327.66 82.55)
 		)
 		(stroke
@@ -7009,16 +7101,6 @@
 			(type default)
 		)
 		(uuid "2c3d5c2f-c119-4276-9b7e-33808f1d9396")
-	)
-	(wire
-		(pts
-			(xy 161.29 60.96) (xy 161.29 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2edba9d3-c333-4296-851f-3df46822dd7b")
 	)
 	(wire
 		(pts
@@ -7122,16 +7204,6 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 204.47) (xy 407.67 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "337d1242-91ab-4446-8b9e-7609c6a49e3c")
-	)
-	(wire
-		(pts
 			(xy 67.31 203.2) (xy 63.5 203.2)
 		)
 		(stroke
@@ -7192,13 +7264,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 78.74) (xy 29.21 80.01)
+			(xy 250.19 104.14) (xy 250.19 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3adb8c69-132c-478c-b246-f381b0e1424c")
+		(uuid "3872a903-862a-479f-920c-e9c0dfec551a")
 	)
 	(bus
 		(pts
@@ -7339,16 +7411,6 @@
 			(type default)
 		)
 		(uuid "411f21c0-dcce-4bff-ac0e-7c5571730a65")
-	)
-	(wire
-		(pts
-			(xy 327.66 29.21) (xy 327.66 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4198eb99-d244-457e-8768-395280df1a66")
 	)
 	(wire
 		(pts
@@ -7572,16 +7634,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 69.85) (xy 327.66 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c6a1dad-7acf-4a52-99b0-316025d1ab04")
-	)
-	(wire
-		(pts
 			(xy 67.31 43.18) (xy 60.96 43.18)
 		)
 		(stroke
@@ -7772,6 +7824,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 52.07) (xy 256.54 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e5c8d3-c014-4daa-8002-4f5843df322e")
+	)
+	(wire
+		(pts
 			(xy 299.72 124.46) (xy 302.26 124.46)
 		)
 		(stroke
@@ -7779,16 +7841,6 @@
 			(type default)
 		)
 		(uuid "570ee06f-38f1-44a9-ae2b-f08cf56305e0")
-	)
-	(wire
-		(pts
-			(xy 406.4 73.66) (xy 406.4 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5778dc8c-60fe-435e-b75a-362eae1b81ab")
 	)
 	(wire
 		(pts
@@ -8050,16 +8102,6 @@
 		)
 		(uuid "61a8149a-2c46-4891-a026-d1321b4c0b29")
 	)
-	(wire
-		(pts
-			(xy 271.78 101.6) (xy 275.59 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "628f0a9f-12ce-4a6a-8ea2-8c2cdfc4161e")
-	)
 	(bus
 		(pts
 			(xy 15.24 60.96) (xy 15.24 63.5)
@@ -8089,16 +8131,6 @@
 			(type default)
 		)
 		(uuid "64bbd1a8-b20b-4d12-891d-7b53b4a0334a")
-	)
-	(wire
-		(pts
-			(xy 274.32 143.51) (xy 281.94 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64d84e49-aaf5-4eba-8a78-1b20287a1fe2")
 	)
 	(bus
 		(pts
@@ -8242,16 +8274,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 182.88) (xy 182.88 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70cf3e26-e279-4e61-a2f5-466ff5585d49")
-	)
-	(wire
-		(pts
 			(xy 125.73 66.04) (xy 123.19 66.04)
 		)
 		(stroke
@@ -8282,6 +8304,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 148.59) (xy 205.74 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d27313-fb4b-44c7-a06e-9a051f2988ac")
+	)
+	(wire
+		(pts
 			(xy 124.46 198.12) (xy 102.87 198.12)
 		)
 		(stroke
@@ -8289,6 +8321,16 @@
 			(type default)
 		)
 		(uuid "73486422-c87a-4ad4-8fe5-a3ffc70cb20a")
+	)
+	(bus
+		(pts
+			(xy 15.24 35.56) (xy 15.24 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735b3ae5-cac5-4dea-baf9-2eef88f3fc13")
 	)
 	(bus
 		(pts
@@ -8430,16 +8472,6 @@
 		)
 		(uuid "7c3fa13a-5250-4394-8d82-80430597df04")
 	)
-	(bus
-		(pts
-			(xy 15.24 19.05) (xy 15.24 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c938fcf-5266-4f01-b9d8-797ff7c61f4c")
-	)
 	(wire
 		(pts
 			(xy 226.06 170.18) (xy 217.17 170.18)
@@ -8452,7 +8484,7 @@
 	)
 	(bus
 		(pts
-			(xy 170.18 19.05) (xy 171.45 19.05)
+			(xy 170.18 35.56) (xy 171.45 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8682,16 +8714,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 58.42) (xy 21.59 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88b7d164-35a2-420d-9da6-a56db04f962b")
-	)
-	(wire
-		(pts
 			(xy 363.22 80.01) (xy 370.84 80.01)
 		)
 		(stroke
@@ -8739,16 +8761,6 @@
 			(type default)
 		)
 		(uuid "8ac2bac7-c686-402e-9f05-089e132647d2")
-	)
-	(wire
-		(pts
-			(xy 19.05 22.86) (xy 19.05 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b129856-cc2d-4792-b90f-5af9599716ce")
 	)
 	(wire
 		(pts
@@ -8822,6 +8834,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 62.23) (xy 250.19 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903d18c6-8638-4f31-96ae-dfcdb9ca9dc7")
+	)
+	(wire
+		(pts
 			(xy 233.68 27.94) (xy 232.41 27.94)
 		)
 		(stroke
@@ -8829,16 +8851,6 @@
 			(type default)
 		)
 		(uuid "9050328c-80d1-449f-94a8-27658961ba9d")
-	)
-	(wire
-		(pts
-			(xy 327.66 111.76) (xy 327.66 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "909d0bdd-8a15-40f2-9dfd-be4a5d2d6b25")
 	)
 	(bus
 		(pts
@@ -8962,16 +8974,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 233.68) (xy 29.21 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94a21413-9821-4587-923e-f37548a5150a")
-	)
-	(wire
-		(pts
 			(xy 167.64 63.5) (xy 156.21 63.5)
 		)
 		(stroke
@@ -9019,16 +9021,6 @@
 			(type default)
 		)
 		(uuid "96d488aa-4d20-4ba2-8d75-10df5865e575")
-	)
-	(wire
-		(pts
-			(xy 161.29 60.96) (xy 170.18 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97816a30-8562-4b40-bfd6-82faaadf14b2")
 	)
 	(wire
 		(pts
@@ -9342,16 +9334,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 149.86) (xy 327.66 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a46a2b22-69cf-45fb-b1d2-32ac89bbd3c8")
-	)
-	(wire
-		(pts
 			(xy 217.17 158.75) (xy 209.55 158.75)
 		)
 		(stroke
@@ -9450,6 +9432,16 @@
 		)
 		(uuid "abac3a55-6600-44a7-a541-4ce5bf073843")
 	)
+	(bus
+		(pts
+			(xy 16.51 35.56) (xy 15.24 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbeb269-6ec0-44f4-b674-2aee22a2aed3")
+	)
 	(wire
 		(pts
 			(xy 59.69 210.82) (xy 63.5 210.82)
@@ -9469,16 +9461,6 @@
 			(type default)
 		)
 		(uuid "ae0ad2a8-816d-4ed9-8122-ce73b249d5bc")
-	)
-	(wire
-		(pts
-			(xy 407.67 204.47) (xy 407.67 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeaaa120-9cc5-4520-9a70-067fbc8f5b7b")
 	)
 	(wire
 		(pts
@@ -9582,16 +9564,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 60.96) (xy 171.45 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a716bc-42e9-408e-8c8f-e8012142ddb1")
-	)
-	(wire
-		(pts
 			(xy 320.04 34.29) (xy 320.04 55.88)
 		)
 		(stroke
@@ -9679,16 +9651,6 @@
 			(type default)
 		)
 		(uuid "b6670714-a829-420f-8f82-042c74d803a5")
-	)
-	(wire
-		(pts
-			(xy 29.21 157.48) (xy 29.21 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ceb85d-46f8-42e1-9c68-672660fbaf7c")
 	)
 	(wire
 		(pts
@@ -9962,6 +9924,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 60.96) (xy 29.21 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4232e88-4549-42bd-8ec0-2d43ebfbd882")
+	)
+	(wire
+		(pts
 			(xy 119.38 78.74) (xy 120.65 78.74)
 		)
 		(stroke
@@ -10062,7 +10034,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 58.42) (xy 171.45 58.42)
+			(xy 156.21 58.42) (xy 161.29 58.42)
 		)
 		(stroke
 			(width 0)
@@ -10232,16 +10204,6 @@
 	)
 	(wire
 		(pts
-			(xy 406.4 76.2) (xy 406.4 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1422f38-9fce-4f5e-878a-341530beaf9c")
-	)
-	(wire
-		(pts
 			(xy 29.21 210.82) (xy 17.78 210.82)
 		)
 		(stroke
@@ -10309,16 +10271,6 @@
 			(type default)
 		)
 		(uuid "d2b76814-7e11-4ea5-b409-7892e0c8500a")
-	)
-	(wire
-		(pts
-			(xy 158.75 24.13) (xy 158.75 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f72b7f-67e2-4cf3-9de6-340a26ecf95b")
 	)
 	(wire
 		(pts
@@ -10432,6 +10384,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 147.32) (xy 208.28 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2e8ac6-e7f8-4609-8a16-a1e446577ad3")
+	)
+	(wire
+		(pts
 			(xy 125.73 132.08) (xy 120.65 132.08)
 		)
 		(stroke
@@ -10439,16 +10401,6 @@
 			(type default)
 		)
 		(uuid "da423bcf-af02-422a-8d3f-915d7fd393eb")
-	)
-	(wire
-		(pts
-			(xy 161.29 22.86) (xy 19.05 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dad24ddf-e25d-4aa8-b795-2adc252edc45")
 	)
 	(wire
 		(pts
@@ -10472,7 +10424,7 @@
 	)
 	(bus
 		(pts
-			(xy 170.18 19.05) (xy 170.18 50.8)
+			(xy 170.18 35.56) (xy 170.18 50.8)
 		)
 		(stroke
 			(width 0)
@@ -10519,16 +10471,6 @@
 			(type default)
 		)
 		(uuid "dd4b4783-44b6-4bbf-bf18-b846491e4d4c")
-	)
-	(wire
-		(pts
-			(xy 29.21 60.96) (xy 19.05 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de01c5f0-8b67-4f95-a915-b01789f320eb")
 	)
 	(wire
 		(pts
@@ -10589,16 +10531,6 @@
 			(type default)
 		)
 		(uuid "e08b3dd0-5717-45d9-897c-a2c963f9de1a")
-	)
-	(wire
-		(pts
-			(xy 29.21 58.42) (xy 21.59 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0937f55-5a21-4b1f-aa30-aba62e4969e5")
 	)
 	(wire
 		(pts
@@ -11012,7 +10944,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 105.41) (xy 275.59 105.41)
+			(xy 179.07 182.88) (xy 184.15 182.88)
 		)
 		(stroke
 			(width 0)
@@ -11039,16 +10971,6 @@
 			(type default)
 		)
 		(uuid "f9e9ce06-06fc-438e-9c72-462409ea9e11")
-	)
-	(wire
-		(pts
-			(xy 156.21 58.42) (xy 158.75 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa7c0f69-d4a4-4907-b41c-63da412a1d61")
 	)
 	(wire
 		(pts
@@ -11120,6 +11042,16 @@
 		)
 		(uuid "02b1295e-cf95-47ff-9c57-f8ada28f2e94")
 	)
+	(label "GND"
+		(at 29.21 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03fb95e3-9c8a-4ce6-8eaf-2a83513d00bd")
+	)
 	(label "BDAL8"
 		(at 281.94 222.25 180)
 		(effects
@@ -11130,7 +11062,17 @@
 		)
 		(uuid "04868f85-bc69-4fa9-8e62-d78ffe5ae58e")
 	)
-	(label "ZDAL6"
+	(label "GND"
+		(at 327.66 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04b3cc93-73a7-409d-bdd2-be4618bf8db4")
+	)
+	(label "RDAL6"
 		(at 157.48 149.86 0)
 		(effects
 			(font
@@ -11139,6 +11081,16 @@
 			(justify left bottom)
 		)
 		(uuid "04b9ebfa-2699-4160-9e9c-0c509052f4c5")
+	)
+	(label "GND"
+		(at 156.21 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04fb3964-972b-4f2f-8f79-be9f5c73977b")
 	)
 	(label "BDMGO"
 		(at 238.76 87.63 0)
@@ -11159,16 +11111,6 @@
 			(justify right bottom)
 		)
 		(uuid "0774b60f-e343-428b-9125-3ca983239ad5")
-	)
-	(label "~{RxDAL}"
-		(at 156.21 233.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "077985bd-c8a6-43b8-af30-1141a8334306")
 	)
 	(label "BIAKO"
 		(at 217.17 27.94 0)
@@ -11220,7 +11162,7 @@
 		)
 		(uuid "0ece2b87-02c1-4250-9204-efdee0b5a9d0")
 	)
-	(label "ZDAL11"
+	(label "TDAL11"
 		(at 27.94 213.36 180)
 		(effects
 			(font
@@ -11260,6 +11202,16 @@
 		)
 		(uuid "1533b475-c834-40d3-ae2c-55eb46ae810f")
 	)
+	(label "GND"
+		(at 67.31 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15e55d3b-57f3-47ba-9066-8233598bdcaf")
+	)
 	(label "3V3"
 		(at 394.97 44.45 180)
 		(effects
@@ -11269,16 +11221,6 @@
 			(justify right bottom)
 		)
 		(uuid "18e95a1d-9d1d-4b93-8e4c-2d03c344acc0")
-	)
-	(label "~{RxDAL}"
-		(at 275.59 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "190829cf-8172-400f-bba0-21761cc942eb")
 	)
 	(label "5V0"
 		(at 209.55 209.55 0)
@@ -11290,7 +11232,7 @@
 		)
 		(uuid "199ade13-7442-4da9-8eea-a8e7681e2aee")
 	)
-	(label "ZDAL12"
+	(label "TDAL12"
 		(at 27.94 220.98 180)
 		(effects
 			(font
@@ -11330,7 +11272,7 @@
 		)
 		(uuid "1c57f8a5-0a6c-44cd-b514-5b9d5f8cc98b")
 	)
-	(label "ZDAL21"
+	(label "TDAL21"
 		(at 27.94 137.16 180)
 		(effects
 			(font
@@ -11349,16 +11291,6 @@
 			(justify right bottom)
 		)
 		(uuid "1d6518e1-cfe9-4078-adc2-cf8e6477b5cb")
-	)
-	(label "~{TxDAL_5}"
-		(at 83.82 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1db46316-f403-492b-8814-154fc43d62a8")
 	)
 	(label "BDAL21"
 		(at 80.01 139.7 270)
@@ -11420,7 +11352,7 @@
 		)
 		(uuid "22312754-c8c2-4400-b598-394e06b2be81")
 	)
-	(label "ZDAL13"
+	(label "RDAL13"
 		(at 157.48 218.44 0)
 		(effects
 			(font
@@ -11429,6 +11361,16 @@
 			(justify left bottom)
 		)
 		(uuid "226748a0-9c54-4438-a724-741c7846a7bf")
+	)
+	(label "GND"
+		(at 156.21 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24a70bf9-6009-46e5-90c6-cad49cce8bf6")
 	)
 	(label "BDAL4"
 		(at 238.76 119.38 0)
@@ -11480,7 +11422,7 @@
 		)
 		(uuid "27b32d30-a0e6-48e4-8f63-c61987047d29")
 	)
-	(label "ZDAL14"
+	(label "RDAL14"
 		(at 157.48 226.06 0)
 		(effects
 			(font
@@ -11489,6 +11431,16 @@
 			(justify left bottom)
 		)
 		(uuid "28aab436-a04a-4f1d-a887-4f09513fdc8a")
+	)
+	(label "GND"
+		(at 83.82 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2aec0075-8577-4b5e-8e25-df4e22b8cbff")
 	)
 	(label "BDIN"
 		(at 194.31 242.57 180)
@@ -11540,7 +11492,7 @@
 		)
 		(uuid "30979a3d-28d7-46ae-b5aa-513ad60b71a4")
 	)
-	(label "ZDAL6"
+	(label "TDAL6"
 		(at 27.94 149.86 180)
 		(effects
 			(font
@@ -11620,7 +11572,7 @@
 		)
 		(uuid "34f20938-82be-4faa-a3bd-ea4ff60955a6")
 	)
-	(label "ZDAL19"
+	(label "TDAL19"
 		(at 27.94 71.12 180)
 		(effects
 			(font
@@ -11649,16 +11601,6 @@
 			(justify right bottom)
 		)
 		(uuid "38c40dcc-c1da-4f6f-a147-01497313c7b0")
-	)
-	(label "~{RxDAL}"
-		(at 156.21 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a5e9d83-8605-4e38-a4d6-7131b7911750")
 	)
 	(label "BDAL19"
 		(at 99.06 96.52 270)
@@ -11689,16 +11631,6 @@
 			(justify right bottom)
 		)
 		(uuid "3b19a97f-624a-48d9-8072-15bdeede0fff")
-	)
-	(label "~{TxDAL_5}"
-		(at 67.31 193.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3b5147db-69cc-4871-96a7-79c3437a6213")
 	)
 	(label "3V3"
 		(at 40.64 125.73 0)
@@ -11760,15 +11692,15 @@
 		)
 		(uuid "3fcf515a-b2e5-4769-a263-706606d34687")
 	)
-	(label "~{TxDAL}"
-		(at 275.59 101.6 0)
+	(label "GND"
+		(at 156.21 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3fe74e96-d630-4db9-83b3-437a4cba15b4")
+		(uuid "400182a0-5bfa-42a5-83a0-8526053536ff")
 	)
 	(label "BBS7"
 		(at 82.55 60.96 270)
@@ -11800,7 +11732,7 @@
 		)
 		(uuid "4102ae0e-3d75-40cd-957b-0b4db5d3f5ee")
 	)
-	(label "ZDAL13"
+	(label "TDAL13"
 		(at 27.94 218.44 180)
 		(effects
 			(font
@@ -11830,7 +11762,7 @@
 		)
 		(uuid "437daa66-7365-482e-804c-8098c6a0905c")
 	)
-	(label "ZDAL1"
+	(label "RDAL1"
 		(at 157.48 63.5 0)
 		(effects
 			(font
@@ -11850,7 +11782,7 @@
 		)
 		(uuid "4445e598-1c38-4291-936b-eafc95d0cf78")
 	)
-	(label "ZDAL15"
+	(label "RDAL15"
 		(at 157.48 223.52 0)
 		(effects
 			(font
@@ -11870,7 +11802,7 @@
 		)
 		(uuid "481354ed-51b9-4db2-9835-781681979b4b")
 	)
-	(label "ZDAL0"
+	(label "RDAL0"
 		(at 157.48 66.04 0)
 		(effects
 			(font
@@ -11890,7 +11822,7 @@
 		)
 		(uuid "486e42a8-ccd7-4296-b46d-c1c0b1981be4")
 	)
-	(label "ZDAL17"
+	(label "TDAL17"
 		(at 27.94 53.34 180)
 		(effects
 			(font
@@ -11930,7 +11862,7 @@
 		)
 		(uuid "4b8ea754-7305-433d-91ba-90a4340e15a7")
 	)
-	(label "ZDAL14"
+	(label "TDAL14"
 		(at 27.94 226.06 180)
 		(effects
 			(font
@@ -11960,7 +11892,7 @@
 		)
 		(uuid "4fe15866-5386-4410-a27b-4fc15182a4f3")
 	)
-	(label "ZDAL18"
+	(label "TDAL18"
 		(at 27.94 68.58 180)
 		(effects
 			(font
@@ -11970,7 +11902,7 @@
 		)
 		(uuid "506110af-ac51-4501-bfa6-1552a848d599")
 	)
-	(label "ZDAL19"
+	(label "RDAL19"
 		(at 157.48 71.12 0)
 		(effects
 			(font
@@ -11980,7 +11912,7 @@
 		)
 		(uuid "510813ff-4301-4d7b-b640-805049ac6194")
 	)
-	(label "ZDAL17"
+	(label "RDAL17"
 		(at 157.48 53.34 0)
 		(effects
 			(font
@@ -12060,7 +11992,7 @@
 		)
 		(uuid "5a010660-4a0b-4680-b361-32d4c3b60537")
 	)
-	(label "ZDAL8"
+	(label "TDAL8"
 		(at 27.94 210.82 180)
 		(effects
 			(font
@@ -12090,7 +12022,7 @@
 		)
 		(uuid "5c652bfd-7025-48e8-86f2-beee7cb38bd7")
 	)
-	(label "ZDAL11"
+	(label "RDAL11"
 		(at 157.48 213.36 0)
 		(effects
 			(font
@@ -12109,6 +12041,16 @@
 			(justify right bottom)
 		)
 		(uuid "6150d77e-0e79-4609-a9ad-f39ba34a63b4")
+	)
+	(label "GND"
+		(at 407.67 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61613894-2f4e-4285-8879-7908f53dcf23")
 	)
 	(label "BDIN"
 		(at 345.44 92.71 270)
@@ -12180,7 +12122,7 @@
 		)
 		(uuid "6999550c-f78a-4aae-9243-1b3881f5bb3b")
 	)
-	(label "ZDAL15"
+	(label "TDAL15"
 		(at 27.94 223.52 180)
 		(effects
 			(font
@@ -12220,7 +12162,7 @@
 		)
 		(uuid "6e21d8a8-05db-450e-863d-764ba51b5b58")
 	)
-	(label "ZDAL9"
+	(label "RDAL9"
 		(at 157.48 208.28 0)
 		(effects
 			(font
@@ -12250,7 +12192,7 @@
 		)
 		(uuid "70791199-43db-4ae1-bf3d-59e94aad8d59")
 	)
-	(label "ZDAL18"
+	(label "RDAL18"
 		(at 157.48 68.58 0)
 		(effects
 			(font
@@ -12269,16 +12211,6 @@
 			(justify right bottom)
 		)
 		(uuid "717b25a7-c9c2-4f6f-b744-a96113325c99")
-	)
-	(label "3V3"
-		(at 275.59 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7195a7f5-2a0f-4cae-8649-2cc5cbdffe2b")
 	)
 	(label "BREF"
 		(at 208.28 85.09 180)
@@ -12300,7 +12232,7 @@
 		)
 		(uuid "72f9157b-77da-4a6d-9880-0711b21f6e23")
 	)
-	(label "ZDAL10"
+	(label "RDAL10"
 		(at 157.48 215.9 0)
 		(effects
 			(font
@@ -12309,6 +12241,26 @@
 			(justify left bottom)
 		)
 		(uuid "730780c7-40bd-484b-b640-ae047209b478")
+	)
+	(label "GND"
+		(at 327.66 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76760301-9000-4ccb-b770-827c63fe828d")
+	)
+	(label "GND"
+		(at 67.31 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76f02494-ce70-4c6b-b107-9afbaae316ea")
 	)
 	(label "BDAL17"
 		(at 194.31 237.49 180)
@@ -12360,7 +12312,7 @@
 		)
 		(uuid "79094860-9de1-4089-9ad1-fb708c7e674c")
 	)
-	(label "ZDAL16"
+	(label "RDAL16"
 		(at 157.48 55.88 0)
 		(effects
 			(font
@@ -12370,7 +12322,7 @@
 		)
 		(uuid "7ab8aff0-29e4-4be7-af1f-6a97b7752e20")
 	)
-	(label "ZDAL1"
+	(label "TDAL1"
 		(at 27.94 63.5 180)
 		(effects
 			(font
@@ -12410,6 +12362,16 @@
 		)
 		(uuid "7de04273-7eda-4419-ad6c-938bfee9f2d2")
 	)
+	(label "GND"
+		(at 407.67 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f2ccfd8-8a4c-484f-b1b9-4660908a4149")
+	)
 	(label "3V3"
 		(at 293.37 124.46 180)
 		(effects
@@ -12430,7 +12392,7 @@
 		)
 		(uuid "7fd7cb09-496d-4f85-a95b-f531a0ea6ec8")
 	)
-	(label "ZDAL5"
+	(label "TDAL5"
 		(at 27.94 142.24 180)
 		(effects
 			(font
@@ -12460,7 +12422,7 @@
 		)
 		(uuid "830aee7f-dfce-42cd-85ef-6370f6dc02f5")
 	)
-	(label "ZDAL0"
+	(label "TDAL0"
 		(at 27.94 66.04 180)
 		(effects
 			(font
@@ -12491,6 +12453,16 @@
 		(uuid "85a22866-16c5-4384-bc0b-22ed5b68a467")
 	)
 	(label "GND"
+		(at 327.66 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85b0763a-a6c0-4aad-9b2d-cc79458595db")
+	)
+	(label "GND"
 		(at 83.82 71.12 180)
 		(effects
 			(font
@@ -12500,7 +12472,7 @@
 		)
 		(uuid "85e898d6-983f-4977-9dfa-e5b961e989c1")
 	)
-	(label "ZDAL9"
+	(label "TDAL9"
 		(at 27.94 208.28 180)
 		(effects
 			(font
@@ -12519,16 +12491,6 @@
 			(justify left bottom)
 		)
 		(uuid "86a6b9b9-3de3-44b4-b763-98233419d240")
-	)
-	(label "~{TxDAL_5}"
-		(at 67.31 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86c73e16-9c05-4385-b59b-206056f7ac90")
 	)
 	(label "5V0"
 		(at 353.06 59.69 0)
@@ -12570,7 +12532,7 @@
 		)
 		(uuid "8ae8bcca-6404-4249-9a1b-d6efa82cff52")
 	)
-	(label "ZDAL4"
+	(label "TDAL4"
 		(at 27.94 144.78 180)
 		(effects
 			(font
@@ -12579,6 +12541,16 @@
 			(justify right bottom)
 		)
 		(uuid "8c65d639-2c7e-432d-bc2d-cd7263d4f689")
+	)
+	(label "GND"
+		(at 327.66 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ccb8977-99b6-42ba-9889-b67d3e63e5c8")
 	)
 	(label "BIRQ5"
 		(at 194.31 212.09 180)
@@ -12640,6 +12612,26 @@
 		)
 		(uuid "90207e9d-650a-4c45-b7d5-e506cc85537d")
 	)
+	(label "GND"
+		(at 67.31 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91babc61-7976-49dc-9f0a-78e81d4ea794")
+	)
+	(label "GND"
+		(at 327.66 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93414ed3-36d9-461a-b662-a6a2657d928e")
+	)
 	(label "5V0"
 		(at 353.06 185.42 0)
 		(effects
@@ -12680,8 +12672,8 @@
 		)
 		(uuid "95e16380-a797-4ef6-bc92-67bfd44afe75")
 	)
-	(label "ZDAL7"
-		(at 26.67 147.32 180)
+	(label "TDAL7"
+		(at 27.94 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12750,7 +12742,7 @@
 		)
 		(uuid "9b774066-2c22-4032-af01-4291adb02340")
 	)
-	(label "ZDAL8"
+	(label "RDAL8"
 		(at 157.48 210.82 0)
 		(effects
 			(font
@@ -12760,7 +12752,7 @@
 		)
 		(uuid "9c7af13e-949e-4a55-a6b7-45ef51b4f106")
 	)
-	(label "ZDAL20"
+	(label "RDAL20"
 		(at 157.48 132.08 0)
 		(effects
 			(font
@@ -12779,6 +12771,16 @@
 			(justify left bottom)
 		)
 		(uuid "9fb044e3-00d4-4901-9cd7-c364c152358f")
+	)
+	(label "GND"
+		(at 406.4 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fe8351e-5be7-401d-9600-93bb26e9bdbc")
 	)
 	(label "BDAL15"
 		(at 281.94 257.81 180)
@@ -12820,6 +12822,16 @@
 		)
 		(uuid "a2d090b5-bdc2-4863-87f2-2ea46a246d3d")
 	)
+	(label "GND"
+		(at 327.66 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a32d5122-e8d2-4da0-9ec1-c80f42a382fb")
+	)
 	(label "BDAL1"
 		(at 104.14 96.52 270)
 		(effects
@@ -12830,7 +12842,7 @@
 		)
 		(uuid "a559f63f-b3a0-4b81-aa6a-605d4da47af6")
 	)
-	(label "ZDAL12"
+	(label "RDAL12"
 		(at 157.48 220.98 0)
 		(effects
 			(font
@@ -12849,6 +12861,16 @@
 			(justify right bottom)
 		)
 		(uuid "a6dd3322-fcf5-4e4f-88bb-77a3d82a4d05")
+	)
+	(label "GND"
+		(at 29.21 233.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8b2c25d-5322-4c03-9e53-cc1818ac4184")
 	)
 	(label "BHALT"
 		(at 223.52 222.25 180)
@@ -12890,7 +12912,7 @@
 		)
 		(uuid "aaf0fd50-bb22-4408-be5a-88f5ba4193be")
 	)
-	(label "ZDAL20"
+	(label "TDAL20"
 		(at 27.94 132.08 180)
 		(effects
 			(font
@@ -12920,15 +12942,15 @@
 		)
 		(uuid "ad2d033c-4040-4813-b5da-82cf827f9d86")
 	)
-	(label "~{TxDAL_5}"
-		(at 312.42 143.51 0)
+	(label "GND"
+		(at 327.66 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "ae2d0972-d851-4e32-b78e-a1894c29cfe1")
+		(uuid "ad8d25bc-7963-4c66-851f-bea94d420173")
 	)
 	(label "GND"
 		(at 83.82 149.86 180)
@@ -12980,7 +13002,7 @@
 		)
 		(uuid "b4203b01-a27f-440d-ad64-759637213d6e")
 	)
-	(label "ZDAL7"
+	(label "RDAL7"
 		(at 157.48 147.32 0)
 		(effects
 			(font
@@ -13060,7 +13082,7 @@
 		)
 		(uuid "b7dfd91c-6180-48d0-832a-f6a5a032a686")
 	)
-	(label "ZDAL16"
+	(label "TDAL16"
 		(at 27.94 55.88 180)
 		(effects
 			(font
@@ -13099,6 +13121,16 @@
 			(justify right bottom)
 		)
 		(uuid "bb857b3f-cfd2-48ea-8ae4-988435afb17f")
+	)
+	(label "GND"
+		(at 407.67 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbc23cd6-c73c-4f8d-9f74-3060762702a8")
 	)
 	(label "5V0"
 		(at 299.72 44.45 180)
@@ -13140,6 +13172,16 @@
 		)
 		(uuid "c2d24be9-0a91-4ad8-a6f8-4f606bd871ac")
 	)
+	(label "GND"
+		(at 83.82 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3df8baa-e709-4695-af6d-85231b35ecef")
+	)
 	(label "BHALT"
 		(at 208.28 82.55 180)
 		(effects
@@ -13150,17 +13192,7 @@
 		)
 		(uuid "c435621a-1e7b-4aea-a701-d5d27a54bd0d")
 	)
-	(label "~{RxDAL}"
-		(at 156.21 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c645efa1-5cf3-4d27-be7a-303fdbabecd8")
-	)
-	(label "ZDAL5"
+	(label "RDAL5"
 		(at 157.48 142.24 0)
 		(effects
 			(font
@@ -13170,7 +13202,7 @@
 		)
 		(uuid "c6505e92-8e90-436d-b6f5-959c6248d156")
 	)
-	(label "ZDAL2"
+	(label "RDAL2"
 		(at 157.48 134.62 0)
 		(effects
 			(font
@@ -13199,6 +13231,16 @@
 			(justify right bottom)
 		)
 		(uuid "c78d97f4-1d1b-46c3-bcbb-8424944a8978")
+	)
+	(label "GND"
+		(at 327.66 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7d31ef4-7410-4ed5-8be5-b489d995f2aa")
 	)
 	(label "BSACK"
 		(at 208.28 132.08 180)
@@ -13240,6 +13282,16 @@
 		)
 		(uuid "cbdd084c-3cde-4340-9de6-6f6ca3f79e91")
 	)
+	(label "GND"
+		(at 407.67 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc5eadf8-baeb-448e-8391-439f1ece5bd8")
+	)
 	(label "BDAL17"
 		(at 208.28 59.69 180)
 		(effects
@@ -13280,7 +13332,7 @@
 		)
 		(uuid "ce55d4e5-cb2b-4927-9979-4a7fc840f632")
 	)
-	(label "ZDAL2"
+	(label "TDAL2"
 		(at 27.94 134.62 180)
 		(effects
 			(font
@@ -13290,7 +13342,7 @@
 		)
 		(uuid "d0b8883f-56d3-436a-a178-a658388f963b")
 	)
-	(label "ZDAL10"
+	(label "TDAL10"
 		(at 27.94 215.9 180)
 		(effects
 			(font
@@ -13310,7 +13362,7 @@
 		)
 		(uuid "d32a4687-3a9c-4aaa-9fc8-6c464698f554")
 	)
-	(label "ZDAL4"
+	(label "RDAL4"
 		(at 157.48 144.78 0)
 		(effects
 			(font
@@ -13319,26 +13371,6 @@
 			(justify left bottom)
 		)
 		(uuid "d432cbe6-4998-44d8-87df-626563ccc34f")
-	)
-	(label "~{TxDAL_5}"
-		(at 83.82 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d43d6c5b-08dc-4efb-9ffc-91ecf13d0a2f")
-	)
-	(label "~{TxDAL_5}"
-		(at 83.82 228.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d52775ee-dd56-474f-8b5c-c66029880e5c")
 	)
 	(label "GND"
 		(at 208.28 129.54 180)
@@ -13370,7 +13402,7 @@
 		)
 		(uuid "d7de2887-c7b2-4bb7-a339-632f4f906224")
 	)
-	(label "ZDAL3"
+	(label "RDAL3"
 		(at 157.48 139.7 0)
 		(effects
 			(font
@@ -13379,6 +13411,16 @@
 			(justify left bottom)
 		)
 		(uuid "d82759b1-57a0-4293-812e-59347193bfc5")
+	)
+	(label "GND"
+		(at 327.66 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8fe0bea-7f2d-44c2-a9ea-c3902d258e29")
 	)
 	(label "5V0"
 		(at 109.22 218.44 180)
@@ -13470,16 +13512,6 @@
 		)
 		(uuid "e0660a46-ff2a-4b28-b311-cf71bc999b82")
 	)
-	(label "~{TxDAL_5}"
-		(at 67.31 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e1754158-40dc-4df5-848e-7e0c189ace53")
-	)
 	(label "5V0"
 		(at 135.89 125.73 180)
 		(effects
@@ -13550,6 +13582,16 @@
 		)
 		(uuid "e60f5c1d-c97e-4327-8023-b78c1d20bdfb")
 	)
+	(label "GND"
+		(at 406.4 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e87b34a3-b090-4f3c-8438-ccaf8cdbc992")
+	)
 	(label "5V0"
 		(at 267.97 209.55 0)
 		(effects
@@ -13600,7 +13642,7 @@
 		)
 		(uuid "eac540a2-0555-4530-b9cb-9b037a65c0a7")
 	)
-	(label "ZDAL3"
+	(label "TDAL3"
 		(at 27.94 139.7 180)
 		(effects
 			(font
@@ -13640,7 +13682,27 @@
 		)
 		(uuid "eed5fd95-a7ce-441e-bbe1-d330431c5e6d")
 	)
-	(label "ZDAL21"
+	(label "GND"
+		(at 83.82 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef3a4b5f-f45a-4af4-b5ef-ecfc1e5b974f")
+	)
+	(label "GND"
+		(at 29.21 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef6ee1ff-268e-4d28-bbf6-d43094ec356d")
+	)
+	(label "RDAL21"
 		(at 157.48 137.16 0)
 		(effects
 			(font
@@ -13659,6 +13721,16 @@
 			(justify right bottom)
 		)
 		(uuid "efd79052-e146-4d61-9e0a-ba764a5a966b")
+	)
+	(label "GND"
+		(at 327.66 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f129149f-3701-4aa6-8429-24bafee701d4")
 	)
 	(label "3V3"
 		(at 396.24 172.72 180)
@@ -13740,16 +13812,6 @@
 		)
 		(uuid "fb7d0d2c-09e5-46e0-8091-1901472a84d1")
 	)
-	(label "~{TxDAL}"
-		(at 274.32 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fc153f76-4971-47fe-9c36-88d5ca4ab507")
-	)
 	(label "5V0"
 		(at 299.72 124.46 180)
 		(effects
@@ -13770,9 +13832,9 @@
 		)
 		(uuid "fdd41a68-206a-4076-b64a-8b7633d428d6")
 	)
-	(hierarchical_label "ZWTBT"
-		(shape bidirectional)
-		(at 171.45 58.42 0)
+	(hierarchical_label "RWTBT"
+		(shape output)
+		(at 161.29 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13794,7 +13856,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 271.78 105.41 180)
+		(at 179.07 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13880,9 +13942,9 @@
 		)
 		(uuid "544c9ad7-a0b6-4f88-9dcd-908e3e2acf79")
 	)
-	(hierarchical_label "ZBS7"
-		(shape bidirectional)
-		(at 171.45 60.96 0)
+	(hierarchical_label "RBS7"
+		(shape output)
+		(at 161.29 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13915,7 +13977,7 @@
 	)
 	(hierarchical_label "5V0"
 		(shape output)
-		(at 250.19 52.07 0)
+		(at 256.54 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13935,9 +13997,9 @@
 		)
 		(uuid "5c9202d7-6a93-43b3-87c0-77347fd72885")
 	)
-	(hierarchical_label "ZDAL[0..21]"
-		(shape bidirectional)
-		(at 171.45 19.05 0)
+	(hierarchical_label "RDAL[0..21]"
+		(shape output)
+		(at 171.45 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14012,16 +14074,16 @@
 		)
 		(uuid "88f2670e-1113-4ed9-b644-cfdac6e8b249")
 	)
-	(hierarchical_label "~{TxDAL}"
+	(hierarchical_label "TWTBT"
 		(shape input)
-		(at 271.78 101.6 180)
+		(at 26.67 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8aab4608-39e8-491a-83a8-7194f36094f1")
+		(uuid "8d0471e6-8a9e-4f88-8af2-f9b0101bd352")
 	)
 	(hierarchical_label "RDMGI"
 		(shape output)
@@ -14133,16 +14195,27 @@
 		)
 		(uuid "eca8c1f1-6751-4304-8a65-b05952048507")
 	)
-	(hierarchical_label "~{RxDAL}"
+	(hierarchical_label "TDAL[0..21]"
 		(shape input)
-		(at 271.78 97.79 180)
+		(at 16.51 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecbb059c-427b-4a78-806f-6e3b9aa53c74")
+	)
+	(hierarchical_label "TBS7"
+		(shape input)
+		(at 26.67 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ef996d8d-e885-4c54-b48b-e12cd0bd7e8e")
+		(uuid "eea2f90c-a513-47ae-924c-2cd30d32d95b")
 	)
 	(hierarchical_label "RSACK"
 		(shape output)
@@ -14296,6 +14369,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 345.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 345.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 345.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "9b86eb10-9f20-4c99-95e9-2380fe3f9b14")
 		)
@@ -14348,72 +14445,6 @@
 			(project "qsic"
 				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
 					(reference "U401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 327.66 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000609ad675")
-		(property "Reference" "#PWR0401"
-			(at 327.66 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 327.787 33.6042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "611c198d-f7ee-4608-9443-22adf493b46c")
-		)
-		(instances
-			(project "qsic"
-				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
-					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -14582,6 +14613,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 345.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 345.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 345.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "ededb624-8f44-483d-8828-91861caf0e63")
 		)
@@ -14634,72 +14689,6 @@
 			(project "qsic"
 				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
 					(reference "U407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 327.66 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000609b2a47")
-		(property "Reference" "#PWR0408"
-			(at 327.66 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 327.787 74.2442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f56aef97-cf59-4bec-9147-39c83585e6e6")
-		)
-		(instances
-			(project "qsic"
-				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
-					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -14838,72 +14827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 406.4 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000609b6ff6")
-		(property "Reference" "#PWR0410"
-			(at 406.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 406.527 81.8642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 406.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 406.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 406.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5435e42-c1ee-4a96-ab1d-cf405c5546eb")
-		)
-		(instances
-			(project "qsic"
-				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
-					(reference "#PWR0410")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "myLib:74LVC8T245")
 		(at 392.43 143.51 0)
 		(mirror y)
@@ -14990,6 +14913,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 392.43 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 392.43 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 392.43 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15302,6 +15249,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 345.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 345.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 345.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "9857ed36-c143-46d9-9663-e86148b49199")
 		)
@@ -15354,72 +15325,6 @@
 			(project "qsic"
 				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
 					(reference "U409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 327.66 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060a3d093")
-		(property "Reference" "#PWR0418"
-			(at 327.66 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 327.787 116.1542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7cbf3ab-685a-48fb-b5f0-6b3e0a12818c")
-		)
-		(instances
-			(project "qsic"
-				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
-					(reference "#PWR0418")
 					(unit 1)
 				)
 			)
@@ -15522,6 +15427,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 345.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 345.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 345.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "e466fb92-9336-4fbf-83a7-0efa3baac4dc")
 		)
@@ -15574,72 +15503,6 @@
 			(project "qsic"
 				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
 					(reference "U416")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 327.66 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060a43ebf")
-		(property "Reference" "#PWR0422"
-			(at 327.66 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 327.787 156.7942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1bc5e84d-da3c-4e86-8fe2-0950ddb8335f")
-		)
-		(instances
-			(project "qsic"
-				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
-					(reference "#PWR0422")
 					(unit 1)
 				)
 			)
@@ -15790,6 +15653,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 214.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 214.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 214.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ee0d8e9-fed7-477b-804a-adcc223d70ff")
 		)
@@ -15882,6 +15769,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 214.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 214.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 214.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16043,6 +15954,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ceb0e80-7d98-4e66-aa31-ce51c35f043e")
 		)
@@ -16137,6 +16072,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 233.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 233.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 233.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "22646f31-830b-43fc-b4d0-214f3300c5b1")
 		)
@@ -16229,6 +16188,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 240.03 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 240.03 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 240.03 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16379,6 +16362,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A1"
@@ -16566,6 +16573,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A1"
@@ -16764,6 +16795,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 209.55 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 209.55 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 209.55 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "17818e3c-ef65-423b-83a7-167c888e42c8")
 		)
@@ -16856,6 +16911,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 209.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 209.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 209.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17074,6 +17153,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 184.15 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 184.15 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 184.15 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f0cd2f6a-13e3-4422-92eb-7464963ad5dd")
 		)
@@ -17159,6 +17262,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 193.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 193.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 193.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17248,6 +17375,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 200.66 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 200.66 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 200.66 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e127aca6-2244-4ab0-a5ba-d39a64f63be0")
 		)
@@ -17333,6 +17484,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 209.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 209.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 209.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17422,6 +17597,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 217.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 217.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 217.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "471d2ad0-9a0f-45b9-a5a3-b718b6226c05")
 		)
@@ -17509,6 +17708,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 226.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 226.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 226.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72a75e92-bd32-41a5-ba7b-2ae113187d3e")
 		)
@@ -17594,6 +17817,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 259.08 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 259.08 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 259.08 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17747,6 +17994,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 184.15 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 184.15 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 184.15 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "34c42ce1-4daa-44ed-9b0d-116fcfc2d0d8")
 		)
@@ -17832,6 +18103,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 193.04 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 193.04 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 193.04 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17921,6 +18216,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 200.66 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 200.66 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 200.66 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bff0b23a-b0e0-4363-ad23-b074efcfade9")
 		)
@@ -18006,6 +18325,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 209.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 209.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 209.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18095,6 +18438,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 217.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 217.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 217.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d462d3d3-f72d-4da5-ba63-9581787e3cbc")
 		)
@@ -18180,6 +18547,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 226.06 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 226.06 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 226.06 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18269,6 +18660,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 209.55 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 209.55 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 209.55 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2c427024-ca14-4429-b693-ea483e491065")
 		)
@@ -18354,6 +18769,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 217.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 217.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 217.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18443,6 +18882,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 226.06 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 226.06 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 226.06 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f4b0aee-a094-47eb-84a1-4d76eed7332a")
 		)
@@ -18464,9 +18927,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000067be0365")
 		(property "Reference" "RN401"
 			(at 201.93 203.835 90)
@@ -18554,6 +19017,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 201.93 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 201.93 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 201.93 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18671,9 +19158,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000067d46b0c")
 		(property "Reference" "RN402"
 			(at 231.14 203.835 90)
@@ -18761,6 +19248,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 231.14 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 231.14 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 231.14 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18878,9 +19389,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000067d880ab")
 		(property "Reference" "RN403"
 			(at 260.35 203.835 90)
@@ -18968,6 +19479,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 260.35 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 260.35 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 260.35 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19085,9 +19620,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000067dc9ac2")
 		(property "Reference" "RN404"
 			(at 289.56 203.835 90)
@@ -19175,6 +19710,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 289.56 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 289.56 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 289.56 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19383,6 +19942,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 85.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 85.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 85.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "b927e62f-eb72-4b2b-a688-a48bc9a906c1")
 		)
@@ -19526,6 +20109,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 44.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 44.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 44.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19706,6 +20313,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "4ed2c52e-a554-45ab-bede-548328ed956d")
 		)
@@ -19850,6 +20481,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 140.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 140.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 140.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20030,6 +20685,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 85.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 85.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 85.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "dbdb625a-6ae2-4268-896f-11debd628c4f")
 		)
@@ -20173,6 +20852,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20353,6 +21056,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "91a93a62-9df0-47c9-8f72-6556d5e56f63")
 		)
@@ -20497,6 +21224,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 140.97 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 140.97 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 140.97 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20666,6 +21417,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 44.45 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 44.45 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 44.45 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20905,6 +21680,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 140.97 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 140.97 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 140.97 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d88397a1-27ae-408d-87ab-cc3630533b80")
 		)
@@ -21047,73 +21846,6 @@
 			(project "qsic"
 				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
 					(reference "#PWR0442")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 234.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006b292ea2")
-		(property "Reference" "#PWR0440"
-			(at 29.21 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.083 239.3442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d96171e-7384-48a3-b7b6-f3f35d176d40")
-		)
-		(instances
-			(project "qsic"
-				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
-					(reference "#PWR0440")
 					(unit 1)
 				)
 			)
@@ -21281,6 +22013,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 101.6 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 101.6 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 101.6 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -21504,6 +22260,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 85.09 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 85.09 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 85.09 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "b9df3039-b0ba-4288-b952-e06df3568a9e")
 		)
@@ -21647,6 +22427,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 297.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 297.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 297.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -21952,6 +22756,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 391.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 391.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 391.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44d072f9-64e1-459e-80d1-c82fa5b6cb3e")
 		)
@@ -22121,6 +22949,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 297.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 297.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 297.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40494b3b-0b3c-4f14-af1b-8c0722796b08")
 		)
@@ -22264,72 +23116,6 @@
 			(project "qsic"
 				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
 					(reference "#PWR0426")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 407.67 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006bea3b8b")
-		(property "Reference" "#PWR0424"
-			(at 407.67 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 407.797 161.8742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 407.67 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 407.67 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 407.67 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15d47137-9a13-40ea-962c-950801a0ca2f")
-		)
-		(instances
-			(project "qsic"
-				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
-					(reference "#PWR0424")
 					(unit 1)
 				)
 			)
@@ -22489,6 +23275,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 392.43 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 392.43 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 392.43 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -22669,6 +23479,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 345.44 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 345.44 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 345.44 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "2e0f3694-df01-4b81-827c-9eff634a16bc")
 		)
@@ -22794,72 +23628,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 327.66 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006bea3b95")
-		(property "Reference" "#PWR0435"
-			(at 327.66 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 327.787 199.9742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69c2666a-8ccc-46ee-a82b-24d396e83fe0")
-		)
-		(instances
-			(project "qsic"
-				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
-					(reference "#PWR0435")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 389.89 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22919,72 +23687,6 @@
 			(project "qsic"
 				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
 					(reference "#PWR0437")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 407.67 205.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006bea3b97")
-		(property "Reference" "#PWR0436"
-			(at 407.67 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 407.797 210.1342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 407.67 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 407.67 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 407.67 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41132712-f2dc-409b-9d98-c933f3dcdf8c")
-		)
-		(instances
-			(project "qsic"
-				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
-					(reference "#PWR0436")
 					(unit 1)
 				)
 			)
@@ -23067,6 +23769,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -23351,6 +24077,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9faf1f0e-8c59-45d9-87bd-038d76b0ab68")
 		)
@@ -23436,6 +24186,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 242.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 242.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 242.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -23525,6 +24299,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 250.19 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 250.19 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 250.19 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cfe5ef13-4f5f-4cde-96c0-e6f51e0d4fe3")
 		)
@@ -23610,6 +24408,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 266.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 266.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 266.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -23699,6 +24521,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 233.68 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 233.68 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 233.68 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c924c1fa-6f69-4c8e-9fab-25fcfa9314ce")
 		)
@@ -23784,6 +24630,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 242.57 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 242.57 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 242.57 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -23873,6 +24743,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 250.19 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 250.19 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 250.19 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a6dcca40-5066-4b54-acc8-d2925a9cf8ef")
 		)
@@ -23958,6 +24852,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 184.15 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 184.15 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 184.15 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -24047,6 +24965,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 193.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bfdd06e2-88b3-46c3-90e9-61feb9373e52")
 		)
@@ -24132,6 +25074,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 200.66 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 200.66 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 200.66 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -24221,6 +25187,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 233.68 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 233.68 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 233.68 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79073c57-46e7-4396-b557-04a02bba0109")
 		)
@@ -24308,6 +25298,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 242.57 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 242.57 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 242.57 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b9ef4c66-f0a7-428d-ab36-6d0f1a1d0ce2")
 		)
@@ -24393,6 +25407,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 250.19 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 250.19 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 250.19 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -24605,73 +25643,6 @@
 			(project "qsic"
 				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
 					(reference "#PWR0420")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 158.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000726d9227")
-		(property "Reference" "#PWR0425"
-			(at 29.21 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.083 163.1442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fe9d150-a60b-45b7-ac68-9f7b4f02ad5a")
-		)
-		(instances
-			(project "qsic"
-				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
-					(reference "#PWR0425")
 					(unit 1)
 				)
 			)
@@ -24946,73 +25917,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000072cf4cb8")
-		(property "Reference" "#PWR0411"
-			(at 29.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.083 84.4042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a50eabef-b064-4d60-b571-f7e12c0fb002")
-		)
-		(instances
-			(project "qsic"
-				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
-					(reference "#PWR0411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 46.99 85.09 0)
 		(mirror y)
 		(unit 1)
@@ -25150,6 +26054,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 259.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 259.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 259.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "10d6bece-2fe2-4e9c-951c-ce0f71bb10fc")
 		)
@@ -25235,6 +26163,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 266.7 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 266.7 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 266.7 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -25388,6 +26340,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 259.08 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 259.08 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 259.08 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73b41eb2-3ccf-4143-92fe-caaab34649bf")
 		)
@@ -25475,6 +26451,30 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 266.7 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 266.7 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 266.7 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7c50b70a-a2a8-4443-a4ce-2ecc06ee21f8")
 		)
@@ -25549,6 +26549,548 @@
 			(project "qsic"
 				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
 					(reference "#PWR0434")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "036861ef-8295-428d-a5c9-5dc43579394c")
+		(property "Reference" "#PWR0440"
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.317 114.8842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c9b6a98-7262-430c-ac8b-5a8523a9a78d")
+		)
+		(instances
+			(project "qsic"
+				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
+					(reference "#PWR0440")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c1f9db9-d9bf-4e46-8550-a5c4095c32f8")
+		(property "Reference" "#PWR0411"
+			(at 254 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254.127 62.8142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ff2e309-8074-44d5-83a7-3b7dc116f4a1")
+		)
+		(instances
+			(project "qsic"
+				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
+					(reference "#PWR0411")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 250.19 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87693aee-e47c-4d9d-bf3b-29a2348dee02")
+		(property "Reference" "C2"
+			(at 252.73 63.0681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF 16V"
+			(at 252.73 65.6081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cbecd760-7606-44e6-a291-bd9f544173ad")
+		)
+		(pin "1"
+			(uuid "9a52dde8-650c-46bb-ba36-a68ee18151e4")
+		)
+		(instances
+			(project "qsic"
+				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 254 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad00123f-af58-4d21-9a13-e102e52f3a7c")
+		(property "Reference" "C1"
+			(at 256.54 54.1781 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF 16V"
+			(at 256.54 56.7181 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 254 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 254 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3c1b4e4-7f92-4e14-b04d-d77e8d461e2f")
+		)
+		(pin "1"
+			(uuid "5a86efbb-40b4-4387-9afc-02bb2001141d")
+		)
+		(instances
+			(project "qsic"
+				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 250.19 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4c6de7c-bf8b-44a5-bd1b-caa3eb950232")
+		(property "Reference" "C3"
+			(at 252.73 106.2481 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF 16V"
+			(at 252.73 108.7881 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 250.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 250.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "611ae6c7-007d-489d-a809-e3b9203a3582")
+		)
+		(pin "1"
+			(uuid "8ced8143-fb48-4bff-87d7-ec13f99f75f5")
+		)
+		(instances
+			(project "qsic"
+				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddd415ed-dab6-48b5-91aa-6d804269995c")
+		(property "Reference" "#PWR0448"
+			(at 205.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8f70554-e586-4ee7-a4fa-d527edd1b597")
+		)
+		(instances
+			(project "qsic"
+				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
+					(reference "#PWR0448")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e466bf82-ce4f-4660-85f9-9b787cd3a5f7")
+		(property "Reference" "#PWR0425"
+			(at 250.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.317 71.7042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e9d33e2-ac5f-4e77-b69f-8092c5efb3d4")
+		)
+		(instances
+			(project "qsic"
+				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
+					(reference "#PWR0425")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 205.74 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee0b31fb-c619-4825-a77c-8a22c3c203b0")
+		(property "Reference" "C4"
+			(at 208.28 149.4281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF 16V"
+			(at 208.28 151.9681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 205.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 205.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ab347da-bc5f-49ed-a2f6-4b8e41a5b6da")
+		)
+		(pin "1"
+			(uuid "504ed13a-0b3c-4cdf-a679-7a2752e20d13")
+		)
+		(instances
+			(project "qsic"
+				(path "/c346b00c-b5e0-4939-beb4-7f48172ef334/00000000-0000-0000-0000-00005fc03835"
+					(reference "C4")
 					(unit 1)
 				)
 			)

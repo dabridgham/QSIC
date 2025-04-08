@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 11.43,
-          "width": 2.032
+          "drill": 3.175,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -500,16 +500,15 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "via_diameter": 0.508,
-        "via_drill": 0.3048,
+        "track_width": 0.152,
+        "via_diameter": 0.4,
+        "via_drill": 0.25,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -527,7 +526,6 @@
         "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -557,7 +555,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "qsic.step",
       "svg": "",
       "vrml": ""
     },
@@ -614,7 +612,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -656,6 +654,42 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part",
+          "name": "JLCPCB Part",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Position Offset",
+          "name": "FT Position Offset",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Field12",
+          "name": "Field12",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label",
+          "name": "Label",
           "show": false
         }
       ],
@@ -722,20 +756,20 @@
       "Root"
     ],
     [
-      "00000000-0000-0000-0000-00005dcb8ca6",
-      "I/O"
+      "00000000-0000-0000-0000-00005fc03835",
+      "QBUS"
     ],
     [
-      "00000000-0000-0000-0000-000067f300aa",
-      "Memory"
+      "00000000-0000-0000-0000-00005dcb8ca6",
+      "IO"
     ],
     [
       "00000000-0000-0000-0000-00005d96df52",
       "Power"
     ],
     [
-      "00000000-0000-0000-0000-00005fc03835",
-      "QBUS"
+      "00000000-0000-0000-0000-000067f300aa",
+      "Memory"
     ]
   ],
   "text_variables": {}

@@ -4,6 +4,7 @@
 */rescue-backup/
 *.bak
 *-bak
+*.lck
 *.kicad_pcb-bak
 *.kicad_prl
 *.net
