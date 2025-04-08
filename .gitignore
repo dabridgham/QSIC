@@ -1,8 +1,6 @@
 *.vvp
 *.lxt
 *.gtkw
-/board-smt/output
-/indicator-panel/output
 */rescue-backup/
 *.bak
 *-bak
@@ -15,6 +13,7 @@
 *.ps
 *.eps
 *.bit
+*.zip
 *.html
 vivado*.jou
 vivado*.log
@@ -37,3 +36,7 @@ vivado_pid*.zip
 /jnc
 /xilinx
 /bus-xcvr
+production/*
+fabrication-toolkit-options.json
+fp-info-cache
+DEC.*
