@@ -6,9 +6,10 @@
 	(paper "B")
 	(title_block
 		(title "QSIC - QBUS Storage & I/O Card")
-		(date "2025-03-28")
+		(date "2025-04-12")
 		(rev "0.4")
-		(comment 1 "Clocks: RSYNC RDOUT RDMGI RDIN usb0_clk60")
+		(company "Vintage Computer Enterprises")
+		(comment 4 "Clocks: RSYNC RDOUT RDMGI RDIN usb0_clk60")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
